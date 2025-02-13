@@ -1,0 +1,1 @@
+This example demonstrates a common error in Rust programming: panicking due to accessing an element in a vector using an index that is out of bounds. The provided solution shows how to safely handle this situation by checking for the valid index before attempting to access the element using `.get()` method or by using `match` to handle index out of bound case.
